@@ -426,7 +426,7 @@ session_start();
                         </div>
                         <div class="header-right-area-one">
                             <div class="buttons-area">
-                                <a href="#" class="rts-btn btn-primary">Apply Now</a>
+                                <button type="button" class="rts-btn btn-primary mt-0" id="apply_btns" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</button>
                             </div>
                             <div class="menu-btn" id="menu-btn">
                                 <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -805,7 +805,7 @@ session_start();
                                 <p class="title">Have doubts about Full Stack Development Placement Guarantee Course? Reach out to our counsellors by filling this form.</p>
                             </div>
                             <div class="col-lg-3">
-                               <a href="#" class="rts-btn btn-primary with-arrow" style="float: right;">Apply Now <i class="fa-regular fa-arrow-right"></i></a>
+                              <button type="button" class="rts-btn btn-primary mt-0" id="apply_btns" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</button>
                             </div>
                         </div>  
                     </div>
